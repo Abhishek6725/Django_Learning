@@ -1,46 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is Django Template</title>
-    <style>
-        table{ 
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid red;
-            padding: 8px;
-            text-align: left;
-        }
-    </style>
+<style>
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+th, td {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+th {
+  background-color: #f44336;
+  color: green;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ffe0e0;
+}
+</style>
 </head>
 <body>
-    <h1> Welcome to LPU </h1>
-    <p> This is k22RS section</p>
 
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>College</th>
-            <th>City</th>
-        </tr>
-        <tr>
-            <td>Govind</td>
-            <td>LPU</td>
-            <td>Punjab</td>
-        </tr>
-        <tr>
-            <td>Abhishek</td>
-            <td>LPU</td>
-            <td>Punjab</td>
-        </tr>
-        <tr>
-            <td>Jay</td>
-            <td>LPU</td>
-            <td>Punjab</td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>College</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>Lalit Verma</td>
+        <td>Amity University, Noida</td>
+        <td>Lakhimpur, UP</td>
+    </tr>
+    <tr>
+        <td>Abhinav Adarsh</td>
+        <td>Lovely Professional University, Jalandhar</td>
+        <td>Jalandhar, Punjab</td>
+    </tr>
+    <tr>
+        <td>Lalit Verma</td>
+        <td>IMS Engineering College, Ghaziabad</td>
+        <td>Lucknow, UP</td>
+    </tr>
+</table>
+
 </body>
 </html>
